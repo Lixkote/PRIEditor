@@ -1,0 +1,86 @@
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\bin\Debug\net48\PRIExplorer.exe.config
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\bin\Debug\net48\PRIExplorer.exe
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\bin\Debug\net48\PRIExplorer.pdb
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\bin\Debug\net48\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\bin\Debug\net48\PriFormat.dll
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\bin\Debug\net48\Microsoft.WindowsAPICodePack.dll
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\bin\Debug\net48\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\bin\Debug\net48\Microsoft.WindowsAPICodePack.xml
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\obj\Debug\net48\PRIExplorer.csproj.AssemblyReference.cache
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\obj\Debug\net48\PRIExplorer\Controls\CheckerboardImage.g.cs
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\obj\Debug\net48\PRIExplorer\MainWindow.g.cs
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\obj\Debug\net48\PRIExplorer\Views\BinaryPreviewPage.g.cs
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\obj\Debug\net48\PRIExplorer\Views\ImagePreviewPage.g.cs
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\obj\Debug\net48\PRIExplorer\Views\PathNotFoundPreviewPage.g.cs
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\obj\Debug\net48\PRIExplorer\Views\ScopeDetailPage.g.cs
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\obj\Debug\net48\PRIExplorer\Views\TextPreviewPage.g.cs
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\obj\Debug\net48\PRIExplorer\Views\XbfPreviewPage.g.cs
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\obj\Debug\net48\GeneratedInternalTypeHelper.g.cs
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\obj\Debug\net48\PRIExplorer_MarkupCompile.cache
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\obj\Debug\net48\PRIExplorer_MarkupCompile.lref
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\obj\Debug\net48\PRIExplorer\Controls\CheckerboardImage.baml
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\obj\Debug\net48\PRIExplorer\MainWindow.baml
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\obj\Debug\net48\PRIExplorer\Views\BinaryPreviewPage.baml
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\obj\Debug\net48\PRIExplorer\Views\ImagePreviewPage.baml
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\obj\Debug\net48\PRIExplorer\Views\PathNotFoundPreviewPage.baml
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\obj\Debug\net48\PRIExplorer\Views\ScopeDetailPage.baml
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\obj\Debug\net48\PRIExplorer\Views\TextPreviewPage.baml
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\obj\Debug\net48\PRIExplorer\Views\XbfPreviewPage.baml
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\obj\Debug\net48\PRIExplorer.g.resources
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\obj\Debug\net48\PRIExplorer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\obj\Debug\net48\PRIExplorer.csproj.CoreCompileInputs.cache
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\obj\Debug\net48\PRIExplorer.csproj.CopyComplete
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\obj\Debug\net48\PRIExplorer.exe
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\obj\Debug\net48\PRIExplorer.pdb
+C:\Users\diaxi\Desktop\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer.csproj.AssemblyReference.cache
+C:\Users\diaxi\Desktop\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer\Controls\CheckerboardImage.g.cs
+C:\Users\diaxi\Desktop\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer\MainWindow.g.cs
+C:\Users\diaxi\Desktop\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer\Views\BinaryPreviewPage.g.cs
+C:\Users\diaxi\Desktop\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer\Views\ImagePreviewPage.g.cs
+C:\Users\diaxi\Desktop\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer\Views\PathNotFoundPreviewPage.g.cs
+C:\Users\diaxi\Desktop\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer\Views\ScopeDetailPage.g.cs
+C:\Users\diaxi\Desktop\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer\Views\TextPreviewPage.g.cs
+C:\Users\diaxi\Desktop\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer\Views\XbfPreviewPage.g.cs
+C:\Users\diaxi\Desktop\PriExplorerExperimantal1\obj\Debug\net48\GeneratedInternalTypeHelper.g.cs
+C:\Users\diaxi\Desktop\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer_MarkupCompile.cache
+C:\Users\diaxi\Desktop\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer_MarkupCompile.lref
+C:\Users\diaxi\Desktop\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer.exe
+C:\Users\diaxi\Desktop\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer.pdb
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer.csproj.AssemblyReference.cache
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer\Controls\CheckerboardImage.g.cs
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer\MainWindow.g.cs
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer\Views\BinaryPreviewPage.g.cs
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer\Views\ImagePreviewPage.g.cs
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer\Views\PathNotFoundPreviewPage.g.cs
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer\Views\ScopeDetailPage.g.cs
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer\Views\TextPreviewPage.g.cs
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer\Views\XbfPreviewPage.g.cs
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\Debug\net48\GeneratedInternalTypeHelper.g.cs
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer_MarkupCompile.cache
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer_MarkupCompile.lref
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer.exe
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer.pdb
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\bin\Debug\net48\PRIExplorer.exe.config
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\bin\Debug\net48\PRIExplorer.exe
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\bin\Debug\net48\PRIExplorer.pdb
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\bin\Debug\net48\Microsoft.WindowsAPICodePack.Core.dll
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\bin\Debug\net48\Microsoft.WindowsAPICodePack.ExtendedLinguisticServices.dll
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\bin\Debug\net48\Microsoft.WindowsAPICodePack.Sensors.dll
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\bin\Debug\net48\Microsoft.WindowsAPICodePack.Shell.dll
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\bin\Debug\net48\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\bin\Debug\net48\System.Windows.Forms.dll
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\bin\Debug\net48\WindowsFormsIntegration.dll
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\bin\Debug\net48\PriFormat.dll
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\bin\Debug\net48\PriFormat.pdb
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer\Controls\CheckerboardImage.baml
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer\MainWindow.baml
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer\Views\BinaryPreviewPage.baml
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer\Views\ImagePreviewPage.baml
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer\Views\PathNotFoundPreviewPage.baml
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer\Views\ScopeDetailPage.baml
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer\Views\TextPreviewPage.baml
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer\Views\XbfPreviewPage.baml
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer.g.resources
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer.csproj.CoreCompileInputs.cache
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\Debug\net48\PRIExplo.29A23F74.Up2Date

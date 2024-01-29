@@ -1,0 +1,19 @@
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\PriFormat\bin\Debug\net46\PriFormat.dll
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\PriFormat\bin\Debug\net46\PriFormat.pdb
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\PriFormat\obj\Debug\net46\PriFormat.csproj.AssemblyReference.cache
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\PriFormat\obj\Debug\net46\PriFormat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\PriFormat\obj\Debug\net46\PriFormat.csproj.CoreCompileInputs.cache
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\PriFormat\obj\Debug\net46\PriFormat.dll
+C:\Users\lixkote\Desktop\SourceOriginal\SourceCode\PriFormat\obj\Debug\net46\PriFormat.pdb
+C:\Users\diaxi\Desktop\PriExplorerExperimantal1\PriFormat\obj\Debug\net46\PriFormat.csproj.AssemblyReference.cache
+C:\Users\diaxi\Desktop\PriExplorerExperimantal1\PriFormat\obj\Debug\net46\PriFormat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diaxi\Desktop\PriExplorerExperimantal1\PriFormat\obj\Debug\net46\PriFormat.csproj.CoreCompileInputs.cache
+C:\Users\diaxi\Desktop\PriExplorerExperimantal1\PriFormat\obj\Debug\net46\PriFormat.dll
+C:\Users\diaxi\Desktop\PriExplorerExperimantal1\PriFormat\obj\Debug\net46\PriFormat.pdb
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\PriFormat\obj\Debug\net46\PriFormat.csproj.AssemblyReference.cache
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\PriFormat\obj\Debug\net46\PriFormat.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\PriFormat\obj\Debug\net46\PriFormat.csproj.CoreCompileInputs.cache
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\PriFormat\obj\Debug\net46\PriFormat.dll
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\PriFormat\obj\Debug\net46\PriFormat.pdb
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\PriFormat\bin\Debug\net46\PriFormat.dll
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\PriFormat\bin\Debug\net46\PriFormat.pdb

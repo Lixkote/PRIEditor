@@ -5,6 +5,8 @@
             <ContextMenu x:Key="CandidatesListViewContextMenu">
                 <MenuItem Header="Go to location" Command="{Binding GoToLocationCommand}" />
                 <MenuItem Header="Save as..." Command="{Binding SaveAsCommand}" />
+                <MenuItem Header="Replace XBF with XBF" Command="{Binding SaveXbfCommand}" />
+                <MenuItem Header="Replace XBF with Xaml" Command="{Binding SaveXamlCommand}" />
             </ContextMenu>
             <Style x:Key="CandidatesListViewStyle" TargetType="{x:Type ListView}">
                 <Setter Property="ListView.View">
@@ -59,7 +61,8 @@
         <ListView Name="candidatesListView" Grid.Column="2" Grid.Row="1" SelectionMode="Single" Style="{StaticResource CandidatesListViewStyle}" ItemsSource="{Binding Candidates}" SelectedItem="{Binding SelectedCandidate, Mode=TwoWay}" />
         <GridSplitter Grid.Column="2" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="3" />
         <Frame Name="previewFrame" Grid.Column="2" Grid.Row="3" NavigationUIVisibility="Hidden" Content="{Binding PreviewContent, Mode=TwoWay}" />
-        <Frame Name="scopeDetailFrame" Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" NavigationUIVisibility="Hidden" Grid.ColumnSpan="2" Margin="3,0,0,40" />
-        <Button Grid.Column="2" Content="Replace XBF (Just replaces, you don't need to save afterwards)" HorizontalAlignment="Left" Margin="10,340,0,0" Grid.Row="3" VerticalAlignment="Top" Height="25" Width="346" Command="{Binding SaveXbfCommand}"/>
+        <Frame Name="scopeDetailFrame" Grid.Row="1" Grid.RowSpan="3" NavigationUIVisibility="Hidden" Grid.ColumnSpan="3" Margin="332,0,0,43" />
+        <Button Grid.Column="2" Content="replace to xbf" HorizontalAlignment="Left" Margin="28,345,0,0" Grid.Row="3" Command="{Binding SaveXbfCommand}" VerticalAlignment="Top"/>
+        <Button Grid.Column="2" Content="replace to xaml" HorizontalAlignment="Left" Margin="141,345,0,0" Grid.Row="3" Command="{Binding SaveXamlCommand}" VerticalAlignment="Top"/>
     </Grid>
 </Window>

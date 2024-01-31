@@ -56,11 +56,11 @@ public class CandidateViewModel
 
 	public RelayCommand SaveAsCommand { get; }
 
-	public CandidateViewModel(PriFile priFile, Stream priStream, string resourceRootPath, ResourceMapItem resourceMapItem, Candidate candidate)
+    public CandidateViewModel(PriFile priFile, Stream priStream, string resourceRootPath, ResourceMapItem resourceMapItem, Candidate candidate)
 	{
 		GoToLocationCommand = new RelayCommand(GoToLocationCommand_CanExecute, GoToLocationCommand_Execute);
 		SaveAsCommand = new RelayCommand(SaveAsCommand_CanExecute, SaveAsCommand_Execute);
-		this.priFile = priFile;
+        this.priFile = priFile;
 		this.priStream = priStream;
 		this.resourceRootPath = resourceRootPath;
 		this.resourceMapItem = resourceMapItem;

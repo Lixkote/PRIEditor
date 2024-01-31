@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eFH0BHhP0rEf4mOmtuEJd+WeXpPljmMB0hAZdXxGPwNiaaq5cK7Z4EGc+PII9X7YzCjPQUxKZ/D4Xl9fXLusCw==",
+  "dgSpecHash": "8t2TbKqRiv5z9QorAfqSRoqpOCtfN5WUMJ1l75K8eZM18jgJh+n1h7/n+y5MenjIgRwjG+bubbw+h4b9J1BaqA==",
   "success": true,
-  "projectFilePath": "E:\\Projekty\\Projekty Windows\\PriExplorer w-saving\\PriExplorerExperimantal1\\PRIExplorer.csproj",
+  "projectFilePath": "C:\\Users\\diaxi\\Documents\\GitHub\\XamlingTool\\PRIExplorer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diaxi\\.nuget\\packages\\microsoft.netcore.platforms\\7.0.0\\microsoft.netcore.platforms.7.0.0.nupkg.sha512",
     "C:\\Users\\diaxi\\.nuget\\packages\\microsoft.windows.sdk.contracts\\10.0.22621.2428\\microsoft.windows.sdk.contracts.10.0.22621.2428.nupkg.sha512",

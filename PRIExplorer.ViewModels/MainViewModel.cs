@@ -28,6 +28,8 @@ public class MainViewModel : INotifyPropertyChanged
 
     public RelayCommand SaveXbfCommand { get; }
 
+    public RelayCommand SaveXamlCommand { get; }
+
     public FileStream PriStream { get; private set; }
 
     public FileStream ModdedPriStream { get; private set; }
@@ -103,6 +105,7 @@ public class MainViewModel : INotifyPropertyChanged
 		OpenCommand = new RelayCommand(OpenCommand_Execute);
         SaveAsPriCommand = new RelayCommand(SaveAsPriCommand_Execute);
         SaveXbfCommand = new RelayCommand(SaveXbfCommand_Execute);
+        SaveXamlCommand = new RelayCommand(SaveXbfCommandXaml_Execute);
         CloseCommand = new RelayCommand(CloseCommand_Execute);
 		SetResourceRootPathCommand = new RelayCommand(SetResourceRootPathCommand_CanExecute, SetResourceRootPathCommand_Execute);
 		Entries = new ObservableCollection<EntryViewModel>();
@@ -453,7 +456,7 @@ public class MainViewModel : INotifyPropertyChanged
             }
         }
     }
-    private void SaveXbfCommand_Execute()
+    public void SaveXbfCommand_Execute()
     {
         if (PreviewContent is XbfPreviewPage xbfPreviewPage)
         {
@@ -479,6 +482,54 @@ public class MainViewModel : INotifyPropertyChanged
 
                         // Replace the old XBF data in the PRI file
                         ReplaceXbfInPriFile(modifiedXbfData);
+
+                        // Optionally, refresh the preview with the updated XBF data
+                        // PreviewContent = new XbfPreviewPage(new XbfPreviewViewModel(modifiedXbfData));
+                    }
+                    catch (Exception ex)
+                    {
+                        // MessageBox.Show($"Error loading XBF file: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
+            else
+            {
+                // Log the actual type of DataContext
+                MessageBox.Show($"DataContext type: {xbfPreviewPage.DataContext?.GetType().FullName}");
+            }
+        }
+        else
+        {
+            // Log the actual type of PreviewContent when it's not XbfPreviewPage
+            MessageBox.Show($"Unexpected PreviewContent type: {PreviewContent?.GetType().FullName}");
+        }
+    }
+    public void SaveXbfCommandXaml_Execute()
+    {
+        if (PreviewContent is XbfPreviewPage xbfPreviewPage)
+        {
+            // Log the actual type of PreviewContent
+            Console.WriteLine($"PreviewContent type: {PreviewContent.GetType().FullName}");
+
+            if (xbfPreviewPage.DataContext is XbfPreviewViewModel xbfPreviewViewModel)
+            {
+                // Use OpenFileDialog to allow the user to select an XBF file
+                System.Windows.Forms.OpenFileDialog openFileDialog = new System.Windows.Forms.OpenFileDialog();
+                openFileDialog.Filter = "XBF files (*.xbf)|*.xbf|All files (*.*)|*.*";
+                openFileDialog.Title = "Select an XBF file";
+
+                if (openFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    // Get the selected file path
+                    string xbfFilePath = openFileDialog.FileName;
+
+                    try
+                    {
+                        // Read the XBF file content
+                        byte[] modifiedXbfData = File.ReadAllBytes(xbfFilePath);
+
+                        // Replace the old XBF data in the PRI file
+                        ReplaceXbfInPriFileWithXaml(modifiedXbfData);
 
                         // Optionally, refresh the preview with the updated XBF data
                         // PreviewContent = new XbfPreviewPage(new XbfPreviewViewModel(modifiedXbfData));
@@ -536,6 +587,56 @@ public class MainViewModel : INotifyPropertyChanged
                             ByteSpan dataSpan = candidate.Data.Value;
                             UpdateByteSpanData(dataSpan, modifiedXbfData);
                         }
+
+                        // Save the modified PRI file
+                        // SaveModifiedPriFile();
+                        break;
+
+                    default:
+                        MessageBox.Show("Unsupported candidate type for updating XBF data.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                        break;
+                }
+            }
+        }
+    }
+
+    private void ReplaceXbfInPriFileWithBareXaml(ResourceMapItem resourceMapItem, int candidateIndex, byte[] NewXamlData)
+    {
+        ResourceMapSection primaryResourceMapSection = DePriFile.GetSectionByRef(DePriFile.PriDescriptorSection.PrimaryResourceMapSection.Value);
+
+        if (primaryResourceMapSection.CandidateSets.TryGetValue(resourceMapItem.Index, out var candidateSet))
+        {
+            if (candidateIndex >= 0 && candidateIndex < candidateSet.Candidates.Count)
+            {
+                Candidate candidate = candidateSet.Candidates[candidateIndex];
+
+                switch (candidate.Type)
+                {
+                    case ResourceValueType.EmbeddedData:
+                        // Update the XBF data in the candidate
+                        if (candidate.SourceFile != null)
+                        {
+                            // Handle the case when the XBF is sourced from a file
+                            // You may need to implement this part based on your specific logic
+                            // For example, update the file content with modifiedXbfData
+                            // Example: File.WriteAllBytes(candidate.SourceFile.Path, modifiedXbfData);
+                        }
+                        else if (candidate.DataItem != null)
+                        {
+                            // Handle the case when the XBF is embedded as a data item
+                            // Update the data item content with modifiedXbfData
+                            ByteSpan dataItemSpan = DePriFile.GetDataItemByRef(candidate.DataItem.Value);
+                            UpdateByteSpanData(dataItemSpan, NewXamlData);
+                        }
+                        else if (candidate.Data != null)
+                        {
+                            // Handle the case when the XBF is directly specified as data
+                            // Update the data content with modifiedXbfData
+                            ByteSpan dataSpan = candidate.Data.Value;
+                            UpdateByteSpanData(dataSpan, NewXamlData);
+                        }
+
+						resourceMapItem.FullName = resourceMapItem.FullName.Replace(".xbf", ".xaml");
 
                         // Save the modified PRI file
                         // SaveModifiedPriFile();
@@ -615,6 +716,23 @@ public class MainViewModel : INotifyPropertyChanged
 
             // Update the XBF data in the PRI file
             UpdateXbfInPriFile(resourceMapItem, candidateIndex, modifiedXbfData);
+
+            // Optionally, update the preview with the modified XBF data
+            PreviewContent = new XbfPreviewPage(new XbfPreviewViewModel(modifiedXbfData));
+        }
+    }
+
+    private void ReplaceXbfInPriFileWithXaml(byte[] modifiedXbfData)
+    {
+        if (SelectedEntry?.ResourceMapEntry is ResourceMapItem resourceMapItem && SelectedCandidate != null)
+        {
+            Candidate candidate = SelectedCandidate.Candidate;
+
+            // Find the index of the candidate within the candidate set
+            int candidateIndex = GetCandidateIndex(resourceMapItem, candidate);
+
+            // Update the XBF data in the PRI file
+            ReplaceXbfInPriFileWithBareXaml(resourceMapItem, candidateIndex, modifiedXbfData);
 
             // Optionally, update the preview with the modified XBF data
             PreviewContent = new XbfPreviewPage(new XbfPreviewViewModel(modifiedXbfData));

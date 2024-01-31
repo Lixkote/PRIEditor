@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projekty\\Projekty Windows\\PriExplorer w-saving\\PriExplorerExperimantal1\\PriFormat\\PriFormat.csproj": {}
+    "C:\\Users\\diaxi\\Documents\\GitHub\\XamlingTool\\PriFormat\\PriFormat.csproj": {}
   },
   "projects": {
-    "E:\\Projekty\\Projekty Windows\\PriExplorer w-saving\\PriExplorerExperimantal1\\PriFormat\\PriFormat.csproj": {
+    "C:\\Users\\diaxi\\Documents\\GitHub\\XamlingTool\\PriFormat\\PriFormat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projekty\\Projekty Windows\\PriExplorer w-saving\\PriExplorerExperimantal1\\PriFormat\\PriFormat.csproj",
+        "projectUniqueName": "C:\\Users\\diaxi\\Documents\\GitHub\\XamlingTool\\PriFormat\\PriFormat.csproj",
         "projectName": "PriFormat",
-        "projectPath": "E:\\Projekty\\Projekty Windows\\PriExplorer w-saving\\PriExplorerExperimantal1\\PriFormat\\PriFormat.csproj",
+        "projectPath": "C:\\Users\\diaxi\\Documents\\GitHub\\XamlingTool\\PriFormat\\PriFormat.csproj",
         "packagesPath": "C:\\Users\\diaxi\\.nuget\\packages\\",
-        "outputPath": "E:\\Projekty\\Projekty Windows\\PriExplorer w-saving\\PriExplorerExperimantal1\\PriFormat\\obj\\",
+        "outputPath": "C:\\Users\\diaxi\\Documents\\GitHub\\XamlingTool\\PriFormat\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -2,7 +2,7 @@ namespace PriFormat;
 
 public class ResourceMapItem : ResourceMapEntry
 {
-	internal ResourceMapItem(ushort index, ResourceMapScope parent, string name)
+	public ResourceMapItem(ushort index, ResourceMapScope parent, string name)
 		: base(index, parent, name)
 	{
 	}

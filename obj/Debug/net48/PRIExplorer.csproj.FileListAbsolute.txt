@@ -84,3 +84,42 @@ E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\D
 E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer.GeneratedMSBuildEditorConfig.editorconfig
 E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\Debug\net48\PRIExplorer.csproj.CoreCompileInputs.cache
 E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\Debug\net48\PRIExplo.29A23F74.Up2Date
+C:\Users\diaxi\Documents\GitHub\XamlingTool\obj\Debug\net48\PRIExplorer.csproj.AssemblyReference.cache
+C:\Users\diaxi\Documents\GitHub\XamlingTool\obj\Debug\net48\PRIExplorer.exe
+C:\Users\diaxi\Documents\GitHub\XamlingTool\obj\Debug\net48\PRIExplorer.pdb
+C:\Users\diaxi\Documents\GitHub\XamlingTool\bin\Debug\net48\PRIExplorer.exe.config
+C:\Users\diaxi\Documents\GitHub\XamlingTool\bin\Debug\net48\PRIExplorer.exe
+C:\Users\diaxi\Documents\GitHub\XamlingTool\bin\Debug\net48\PRIExplorer.pdb
+C:\Users\diaxi\Documents\GitHub\XamlingTool\bin\Debug\net48\Microsoft.WindowsAPICodePack.Core.dll
+C:\Users\diaxi\Documents\GitHub\XamlingTool\bin\Debug\net48\Microsoft.WindowsAPICodePack.ExtendedLinguisticServices.dll
+C:\Users\diaxi\Documents\GitHub\XamlingTool\bin\Debug\net48\Microsoft.WindowsAPICodePack.Sensors.dll
+C:\Users\diaxi\Documents\GitHub\XamlingTool\bin\Debug\net48\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\diaxi\Documents\GitHub\XamlingTool\bin\Debug\net48\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+C:\Users\diaxi\Documents\GitHub\XamlingTool\bin\Debug\net48\System.Windows.Forms.dll
+C:\Users\diaxi\Documents\GitHub\XamlingTool\bin\Debug\net48\WindowsFormsIntegration.dll
+C:\Users\diaxi\Documents\GitHub\XamlingTool\bin\Debug\net48\PriFormat.dll
+C:\Users\diaxi\Documents\GitHub\XamlingTool\bin\Debug\net48\PriFormat.pdb
+C:\Users\diaxi\Documents\GitHub\XamlingTool\obj\Debug\net48\PRIExplorer\Controls\CheckerboardImage.g.cs
+C:\Users\diaxi\Documents\GitHub\XamlingTool\obj\Debug\net48\PRIExplorer\MainWindow.g.cs
+C:\Users\diaxi\Documents\GitHub\XamlingTool\obj\Debug\net48\PRIExplorer\Views\BinaryPreviewPage.g.cs
+C:\Users\diaxi\Documents\GitHub\XamlingTool\obj\Debug\net48\PRIExplorer\Views\ImagePreviewPage.g.cs
+C:\Users\diaxi\Documents\GitHub\XamlingTool\obj\Debug\net48\PRIExplorer\Views\PathNotFoundPreviewPage.g.cs
+C:\Users\diaxi\Documents\GitHub\XamlingTool\obj\Debug\net48\PRIExplorer\Views\ScopeDetailPage.g.cs
+C:\Users\diaxi\Documents\GitHub\XamlingTool\obj\Debug\net48\PRIExplorer\Views\TextPreviewPage.g.cs
+C:\Users\diaxi\Documents\GitHub\XamlingTool\obj\Debug\net48\PRIExplorer\Views\XbfPreviewPage.g.cs
+C:\Users\diaxi\Documents\GitHub\XamlingTool\obj\Debug\net48\GeneratedInternalTypeHelper.g.cs
+C:\Users\diaxi\Documents\GitHub\XamlingTool\obj\Debug\net48\PRIExplorer_MarkupCompile.cache
+C:\Users\diaxi\Documents\GitHub\XamlingTool\obj\Debug\net48\PRIExplorer_MarkupCompile.lref
+C:\Users\diaxi\Documents\GitHub\XamlingTool\obj\Debug\net48\PRIExplorer\Controls\CheckerboardImage.baml
+C:\Users\diaxi\Documents\GitHub\XamlingTool\obj\Debug\net48\PRIExplorer\MainWindow.baml
+C:\Users\diaxi\Documents\GitHub\XamlingTool\obj\Debug\net48\PRIExplorer\Views\BinaryPreviewPage.baml
+C:\Users\diaxi\Documents\GitHub\XamlingTool\obj\Debug\net48\PRIExplorer\Views\ImagePreviewPage.baml
+C:\Users\diaxi\Documents\GitHub\XamlingTool\obj\Debug\net48\PRIExplorer\Views\PathNotFoundPreviewPage.baml
+C:\Users\diaxi\Documents\GitHub\XamlingTool\obj\Debug\net48\PRIExplorer\Views\ScopeDetailPage.baml
+C:\Users\diaxi\Documents\GitHub\XamlingTool\obj\Debug\net48\PRIExplorer\Views\TextPreviewPage.baml
+C:\Users\diaxi\Documents\GitHub\XamlingTool\obj\Debug\net48\PRIExplorer\Views\XbfPreviewPage.baml
+C:\Users\diaxi\Documents\GitHub\XamlingTool\obj\Debug\net48\PRIExplorer.g.resources
+C:\Users\diaxi\Documents\GitHub\XamlingTool\obj\Debug\net48\PRIExplorer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diaxi\Documents\GitHub\XamlingTool\obj\Debug\net48\PRIExplorer.csproj.CoreCompileInputs.cache
+C:\Users\diaxi\Documents\GitHub\XamlingTool\obj\Debug\net48\PRIExplorer.sourcelink.json
+C:\Users\diaxi\Documents\GitHub\XamlingTool\obj\Debug\net48\PRIExplo.29A23F74.Up2Date

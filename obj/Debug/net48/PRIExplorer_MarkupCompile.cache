@@ -4,7 +4,7 @@
 winexe
 C#
 .cs
-C:\Users\diaxi\Documents\GitHub\XamlingTool\obj\Debug\net48\
+E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\obj\Debug\net48\
 
 none
 false
@@ -13,7 +13,7 @@ TRACE;DEBUG;NETFRAMEWORK;NET48;
 8416842570
 
 381390396606
-2251422948146
+225319307075
 PRIExplorer\Controls\CheckerboardImage.xaml;PRIExplorer\MainWindow.xaml;PRIExplorer\Views\BinaryPreviewPage.xaml;PRIExplorer\Views\ImagePreviewPage.xaml;PRIExplorer\Views\PathNotFoundPreviewPage.xaml;PRIExplorer\Views\ScopeDetailPage.xaml;PRIExplorer\Views\TextPreviewPage.xaml;PRIExplorer\Views\XbfPreviewPage.xaml;
 
 False

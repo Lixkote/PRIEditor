@@ -369,11 +369,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\diaxi\\Documents\\GitHub\\XamlingTool\\PriFormat\\PriFormat.csproj",
+      "projectUniqueName": "E:\\Projekty\\Projekty Windows\\PriExplorer w-saving\\PriExplorerExperimantal1\\PriFormat\\PriFormat.csproj",
       "projectName": "PriFormat",
-      "projectPath": "C:\\Users\\diaxi\\Documents\\GitHub\\XamlingTool\\PriFormat\\PriFormat.csproj",
+      "projectPath": "E:\\Projekty\\Projekty Windows\\PriExplorer w-saving\\PriExplorerExperimantal1\\PriFormat\\PriFormat.csproj",
       "packagesPath": "C:\\Users\\diaxi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\diaxi\\Documents\\GitHub\\XamlingTool\\PriFormat\\obj\\",
+      "outputPath": "E:\\Projekty\\Projekty Windows\\PriExplorer w-saving\\PriExplorerExperimantal1\\PriFormat\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

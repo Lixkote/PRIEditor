@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "06bzHUnfsSAG0U51fK8Mmd2+/o/VVUXBR+FrUjstUh+QyVHptiWL+GQZfKjPYdlp4hYzDF52x2P4q8vcuNSHVQ==",
+  "dgSpecHash": "2KjLzknaTO2ZNc3c3vA48SUoRwBeEy4mRfa9w0PKf1BdspTvZDvXcA8/+LuVuXTGUjbpLSorIBcmdcYJI3Pe+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\diaxi\\Documents\\GitHub\\XamlingTool\\PriFormat\\PriFormat.csproj",
+  "projectFilePath": "E:\\Projekty\\Projekty Windows\\PriExplorer w-saving\\PriExplorerExperimantal1\\PriFormat\\PriFormat.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diaxi\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
     "C:\\Users\\diaxi\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net46\\1.0.3\\microsoft.netframework.referenceassemblies.net46.1.0.3.nupkg.sha512"

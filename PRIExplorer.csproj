@@ -17,13 +17,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="PriFormat\**" />
-    <Compile Remove="XBFGenerator\**" />
     <EmbeddedResource Remove="PriFormat\**" />
-    <EmbeddedResource Remove="XBFGenerator\**" />
     <None Remove="PriFormat\**" />
-    <None Remove="XBFGenerator\**" />
     <Page Remove="PriFormat\**" />
-    <Page Remove="XBFGenerator\**" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="assets\blue-document-binary.png" />

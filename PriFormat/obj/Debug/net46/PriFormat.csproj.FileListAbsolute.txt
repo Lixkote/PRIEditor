@@ -17,11 +17,3 @@ E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\PriFo
 E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\PriFormat\obj\Debug\net46\PriFormat.pdb
 E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\PriFormat\bin\Debug\net46\PriFormat.dll
 E:\Projekty\Projekty Windows\PriExplorer w-saving\PriExplorerExperimantal1\PriFormat\bin\Debug\net46\PriFormat.pdb
-C:\Users\diaxi\Documents\GitHub\XamlingTool\PriFormat\bin\Debug\net46\PriFormat.dll
-C:\Users\diaxi\Documents\GitHub\XamlingTool\PriFormat\bin\Debug\net46\PriFormat.pdb
-C:\Users\diaxi\Documents\GitHub\XamlingTool\PriFormat\obj\Debug\net46\PriFormat.csproj.AssemblyReference.cache
-C:\Users\diaxi\Documents\GitHub\XamlingTool\PriFormat\obj\Debug\net46\PriFormat.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\diaxi\Documents\GitHub\XamlingTool\PriFormat\obj\Debug\net46\PriFormat.csproj.CoreCompileInputs.cache
-C:\Users\diaxi\Documents\GitHub\XamlingTool\PriFormat\obj\Debug\net46\PriFormat.sourcelink.json
-C:\Users\diaxi\Documents\GitHub\XamlingTool\PriFormat\obj\Debug\net46\PriFormat.dll
-C:\Users\diaxi\Documents\GitHub\XamlingTool\PriFormat\obj\Debug\net46\PriFormat.pdb

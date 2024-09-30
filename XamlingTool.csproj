@@ -1,0 +1,64 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>XamlingTool</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>net48</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="XBFGenerator\**" />
+    <Compile Remove="XbfPriFormat\**" />
+    <EmbeddedResource Remove="XBFGenerator\**" />
+    <EmbeddedResource Remove="XbfPriFormat\**" />
+    <None Remove="XBFGenerator\**" />
+    <None Remove="XbfPriFormat\**" />
+    <Page Remove="XBFGenerator\**" />
+    <Page Remove="XbfPriFormat\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="assets\blue-document-binary.png" />
+    <None Remove="assets\blue-document.png" />
+    <None Remove="assets\blue-document-code.png" />
+    <None Remove="assets\folder-horizontal.png" />
+    <None Remove="assets\document.png" />
+    <None Remove="assets\folder.png" />
+    <None Remove="assets\blue-document-attribute-x.png" />
+    <None Remove="assets\blue-document-attribute-s.png" />
+    <None Remove="assets\blue-document-xaml.png" />
+    <Page Remove="XamlingTool\App.xaml" />
+    <ApplicationDefinition Include="XamlingTool\App.xaml" />
+    <EmbeddedResource Include="assets\blue-document-binary.png" LogicalName="assets/blue-document-binary.png" />
+    <EmbeddedResource Include="assets\blue-document.png" LogicalName="assets/blue-document.png" />
+    <EmbeddedResource Include="assets\blue-document-code.png" LogicalName="assets/blue-document-code.png" />
+    <EmbeddedResource Include="assets\folder-horizontal.png" LogicalName="assets/folder-horizontal.png" />
+    <EmbeddedResource Include="assets\document.png" LogicalName="assets/document.png" />
+    <EmbeddedResource Include="assets\folder.png" LogicalName="assets/folder.png" />
+    <EmbeddedResource Include="assets\blue-document-attribute-x.png" LogicalName="assets/blue-document-attribute-x.png" />
+    <EmbeddedResource Include="assets\blue-document-attribute-s.png" LogicalName="assets/blue-document-attribute-s.png" />
+    <EmbeddedResource Include="assets\blue-document-xaml.png" LogicalName="assets/blue-document-xaml.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="iNKORE.UI.WPF.Modern" Version="0.9.30" />
+    <PackageReference Include="Microsoft.Windows.SDK.Contracts" Version="10.0.22621.2428" />
+    <PackageReference Include="WindowsAPICodePack" Version="7.0.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="XbfPriFormat\XbfPriFormat.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="System.Core" />
+    <Reference Include="PresentationCore" />
+  </ItemGroup>
+</Project>

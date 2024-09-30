@@ -2,6 +2,56 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.8": {
+      "iNKORE.UI.WPF/1.2.7.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "netstandard"
+        ],
+        "compile": {
+          "lib/net452/iNKORE.UI.WPF.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net452/iNKORE.UI.WPF.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "iNKORE.UI.WPF.Modern/0.9.30": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0",
+          "iNKORE.UI.WPF": "1.2.7.1"
+        },
+        "frameworkAssemblies": [
+          "netstandard"
+        ],
+        "compile": {
+          "lib/net452/System.ValueTuple.dll": {},
+          "lib/net452/iNKORE.UI.WPF.Modern.Controls.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net452/iNKORE.UI.WPF.Modern.dll": {
+            "related": ".Controls.pdb;.Controls.xml;.pdb;.xml"
+          },
+          "lib/net452/iNKORE.UI.WPF.dll": {
+            "related": ".Modern.Controls.pdb;.Modern.Controls.xml;.Modern.pdb;.Modern.xml"
+          }
+        },
+        "runtime": {
+          "lib/net452/System.ValueTuple.dll": {},
+          "lib/net452/iNKORE.UI.WPF.Modern.Controls.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net452/iNKORE.UI.WPF.Modern.dll": {
+            "related": ".Controls.pdb;.Controls.xml;.pdb;.xml"
+          },
+          "lib/net452/iNKORE.UI.WPF.dll": {
+            "related": ".Modern.Controls.pdb;.Modern.Controls.xml;.Modern.pdb;.Modern.xml"
+          }
+        }
+      },
       "Microsoft.NETCore.Platforms/7.0.0": {
         "type": "package",
         "compile": {
@@ -302,6 +352,20 @@
           }
         }
       },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "WindowsAPICodePack/7.0.4": {
         "type": "package",
         "dependencies": {
@@ -338,18 +402,68 @@
           }
         }
       },
-      "PriFormat/1.0.0": {
+      "XbfPriFormat/1.0.0": {
         "type": "project",
         "framework": ".NETFramework,Version=v4.6",
         "compile": {
-          "bin/placeholder/PriFormat.dll": {}
+          "bin/placeholder/XbfPriFormat.dll": {}
         },
         "runtime": {
-          "bin/placeholder/PriFormat.dll": {}
+          "bin/placeholder/XbfPriFormat.dll": {}
         }
       }
     },
-    ".NETFramework,Version=v4.8/win7-x86": {
+    ".NETFramework,Version=v4.8/win-x86": {
+      "iNKORE.UI.WPF/1.2.7.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "netstandard"
+        ],
+        "compile": {
+          "lib/net452/iNKORE.UI.WPF.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net452/iNKORE.UI.WPF.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "iNKORE.UI.WPF.Modern/0.9.30": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0",
+          "iNKORE.UI.WPF": "1.2.7.1"
+        },
+        "frameworkAssemblies": [
+          "netstandard"
+        ],
+        "compile": {
+          "lib/net452/System.ValueTuple.dll": {},
+          "lib/net452/iNKORE.UI.WPF.Modern.Controls.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net452/iNKORE.UI.WPF.Modern.dll": {
+            "related": ".Controls.pdb;.Controls.xml;.pdb;.xml"
+          },
+          "lib/net452/iNKORE.UI.WPF.dll": {
+            "related": ".Modern.Controls.pdb;.Modern.Controls.xml;.Modern.pdb;.Modern.xml"
+          }
+        },
+        "runtime": {
+          "lib/net452/System.ValueTuple.dll": {},
+          "lib/net452/iNKORE.UI.WPF.Modern.Controls.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net452/iNKORE.UI.WPF.Modern.dll": {
+            "related": ".Controls.pdb;.Controls.xml;.pdb;.xml"
+          },
+          "lib/net452/iNKORE.UI.WPF.dll": {
+            "related": ".Modern.Controls.pdb;.Modern.Controls.xml;.Modern.pdb;.Modern.xml"
+          }
+        }
+      },
       "Microsoft.NETCore.Platforms/7.0.0": {
         "type": "package",
         "compile": {
@@ -606,6 +720,20 @@
           "runtimes/win/lib/net461/System.Security.Cryptography.X509Certificates.dll": {}
         }
       },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "WindowsAPICodePack/7.0.4": {
         "type": "package",
         "dependencies": {
@@ -642,19 +770,65 @@
           }
         }
       },
-      "PriFormat/1.0.0": {
+      "XbfPriFormat/1.0.0": {
         "type": "project",
         "framework": ".NETFramework,Version=v4.6",
         "compile": {
-          "bin/placeholder/PriFormat.dll": {}
+          "bin/placeholder/XbfPriFormat.dll": {}
         },
         "runtime": {
-          "bin/placeholder/PriFormat.dll": {}
+          "bin/placeholder/XbfPriFormat.dll": {}
         }
       }
     }
   },
   "libraries": {
+    "iNKORE.UI.WPF/1.2.7.1": {
+      "sha512": "jxWb7nbKbmuC2RmAWeM2f9qmLD2/0TnYWonsLsOGcv8nVsqR1vVgH1DKXdDrt4a8i/d+H+brEFLcwdzLaRvnnQ==",
+      "type": "package",
+      "path": "inkore.ui.wpf/1.2.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "WpfLibrary_256w.png",
+        "inkore.ui.wpf.1.2.7.1.nupkg.sha512",
+        "inkore.ui.wpf.nuspec",
+        "lib/net452/iNKORE.UI.WPF.dll",
+        "lib/net452/iNKORE.UI.WPF.pdb",
+        "lib/net6.0-windows7.0/iNKORE.UI.WPF.deps.json",
+        "lib/net6.0-windows7.0/iNKORE.UI.WPF.dll",
+        "lib/net6.0-windows7.0/iNKORE.UI.WPF.pdb"
+      ]
+    },
+    "iNKORE.UI.WPF.Modern/0.9.30": {
+      "sha512": "7QdYE9Xioy6CBz4TWCx1Ai6JnUXn2iL3NjbcEvXDQWxMbdIT3YkXmyFh9r0pqG8/kLUE6Em1UaSRcWb44vYuKQ==",
+      "type": "package",
+      "path": "inkore.ui.wpf.modern/0.9.30",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "WpfLibrary_64w.png",
+        "inkore.ui.wpf.modern.0.9.30.nupkg.sha512",
+        "inkore.ui.wpf.modern.nuspec",
+        "lib/net452/System.ValueTuple.dll",
+        "lib/net452/iNKORE.UI.WPF.Modern.Controls.dll",
+        "lib/net452/iNKORE.UI.WPF.Modern.Controls.pdb",
+        "lib/net452/iNKORE.UI.WPF.Modern.Controls.xml",
+        "lib/net452/iNKORE.UI.WPF.Modern.dll",
+        "lib/net452/iNKORE.UI.WPF.Modern.pdb",
+        "lib/net452/iNKORE.UI.WPF.Modern.xml",
+        "lib/net452/iNKORE.UI.WPF.dll",
+        "lib/net6.0-windows10.0.18362.0/iNKORE.UI.WPF.Modern.Controls.deps.json",
+        "lib/net6.0-windows10.0.18362.0/iNKORE.UI.WPF.Modern.Controls.dll",
+        "lib/net6.0-windows10.0.18362.0/iNKORE.UI.WPF.Modern.Controls.pdb",
+        "lib/net6.0-windows10.0.18362.0/iNKORE.UI.WPF.Modern.Controls.xml",
+        "lib/net6.0-windows10.0.18362.0/iNKORE.UI.WPF.Modern.dll",
+        "lib/net6.0-windows10.0.18362.0/iNKORE.UI.WPF.Modern.pdb",
+        "lib/net6.0-windows10.0.18362.0/iNKORE.UI.WPF.Modern.xml"
+      ]
+    },
     "Microsoft.NETCore.Platforms/7.0.0": {
       "sha512": "ZmCEGPLRDVy0WF6erzJw0G+puBM6s2DxRzRqvYvgHmXE6e34P0HVRtNl6s3nKKSDkD3DQH1QLKWL7fKe3GBSUA==",
       "type": "package",
@@ -1447,6 +1621,50 @@
         "system.security.cryptography.x509certificates.nuspec"
       ]
     },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "WindowsAPICodePack/7.0.4": {
       "sha512": "uwggctGEetWoLNMxn6xbwsIiX3zHbsL1iYm5rrDWgNNVnkip03WsePEcVPx8yXs310RzJs3TLTQOrhw8i5ulRA==",
       "type": "package",
@@ -1543,37 +1761,38 @@
         "windowsapicodepack.nuspec"
       ]
     },
-    "PriFormat/1.0.0": {
+    "XbfPriFormat/1.0.0": {
       "type": "project",
-      "path": "PriFormat/PriFormat.csproj",
-      "msbuildProject": "PriFormat/PriFormat.csproj"
+      "path": "XbfPriFormat/XbfPriFormat.csproj",
+      "msbuildProject": "XbfPriFormat/XbfPriFormat.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.8": [
       "Microsoft.Windows.SDK.Contracts >= 10.0.22621.2428",
-      "PriFormat >= 1.0.0",
-      "WindowsAPICodePack >= 7.0.4"
+      "WindowsAPICodePack >= 7.0.4",
+      "XbfPriFormat >= 1.0.0",
+      "iNKORE.UI.WPF.Modern >= 0.9.30"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\diaxi\\.nuget\\packages\\": {},
+    "C:\\Users\\lixkote\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projekty\\Projekty Windows\\PriExplorer w-saving\\PriExplorerExperimantal1\\PRIExplorer.csproj",
-      "projectName": "PRIExplorer",
-      "projectPath": "E:\\Projekty\\Projekty Windows\\PriExplorer w-saving\\PriExplorerExperimantal1\\PRIExplorer.csproj",
-      "packagesPath": "C:\\Users\\diaxi\\.nuget\\packages\\",
-      "outputPath": "E:\\Projekty\\Projekty Windows\\PriExplorer w-saving\\PriExplorerExperimantal1\\obj\\",
+      "projectUniqueName": "C:\\Users\\lixkote\\Documents\\GitHub\\XamlingTool\\XamlingTool.csproj",
+      "projectName": "XamlingTool",
+      "projectPath": "C:\\Users\\lixkote\\Documents\\GitHub\\XamlingTool\\XamlingTool.csproj",
+      "packagesPath": "C:\\Users\\lixkote\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lixkote\\Documents\\GitHub\\XamlingTool\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\diaxi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lixkote\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1588,8 +1807,8 @@
         "net48": {
           "targetAlias": "net48",
           "projectReferences": {
-            "E:\\Projekty\\Projekty Windows\\PriExplorer w-saving\\PriExplorerExperimantal1\\PriFormat\\PriFormat.csproj": {
-              "projectPath": "E:\\Projekty\\Projekty Windows\\PriExplorer w-saving\\PriExplorerExperimantal1\\PriFormat\\PriFormat.csproj"
+            "C:\\Users\\lixkote\\Documents\\GitHub\\XamlingTool\\XbfPriFormat\\XbfPriFormat.csproj": {
+              "projectPath": "C:\\Users\\lixkote\\Documents\\GitHub\\XamlingTool\\XbfPriFormat\\XbfPriFormat.csproj"
             }
           }
         }
@@ -1602,8 +1821,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net48": {
@@ -1616,13 +1836,17 @@
           "WindowsAPICodePack": {
             "target": "Package",
             "version": "[7.0.4, )"
+          },
+          "iNKORE.UI.WPF.Modern": {
+            "target": "Package",
+            "version": "[0.9.30, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200-preview.23624.5\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
-      "win7-x86": {
+      "win-x86": {
         "#import": []
       }
     }

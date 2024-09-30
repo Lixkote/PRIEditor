@@ -32,8 +32,8 @@
           "net48": {
             "targetAlias": "net48",
             "projectReferences": {
-              "C:\\Users\\lixkote\\Desktop\\SourceOriginal\\SourceCode\\PriFormat\\PriFormat\\PriFormat.csproj": {
-                "projectPath": "C:\\Users\\lixkote\\Desktop\\SourceOriginal\\SourceCode\\PriFormat\\PriFormat\\PriFormat.csproj"
+              "C:\\Users\\lixkote\\Desktop\\SourceOriginal\\SourceCode\\XbfPriFormat\\XbfPriFormat\\XbfPriFormat.csproj": {
+                "projectPath": "C:\\Users\\lixkote\\Desktop\\SourceOriginal\\SourceCode\\XbfPriFormat\\XbfPriFormat\\XbfPriFormat.csproj"
               }
             }
           }
@@ -67,11 +67,11 @@
         }
       }
     },
-    "C:\\Users\\lixkote\\Desktop\\SourceOriginal\\SourceCode\\PriFormat\\PriFormat\\PriFormat.csproj": {
+    "C:\\Users\\lixkote\\Desktop\\SourceOriginal\\SourceCode\\XbfPriFormat\\XbfPriFormat\\XbfPriFormat.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\lixkote\\Desktop\\SourceOriginal\\SourceCode\\PriFormat\\PriFormat\\PriFormat.csproj",
-        "projectName": "PriFormat",
-        "projectPath": "C:\\Users\\lixkote\\Desktop\\SourceOriginal\\SourceCode\\PriFormat\\PriFormat\\PriFormat.csproj",
+        "projectUniqueName": "C:\\Users\\lixkote\\Desktop\\SourceOriginal\\SourceCode\\XbfPriFormat\\XbfPriFormat\\XbfPriFormat.csproj",
+        "projectName": "XbfPriFormat",
+        "projectPath": "C:\\Users\\lixkote\\Desktop\\SourceOriginal\\SourceCode\\XbfPriFormat\\XbfPriFormat\\XbfPriFormat.csproj",
         "frameworks": {
           "net48": {
             "projectReferences": {}

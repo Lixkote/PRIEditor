@@ -10,6 +10,6 @@ public class StringEntryViewModel : EntryViewModel
 		: base(resourceMapEntry)
 	{
 		Name = name;
-		base.Icon = "/Assets/blue-document-attribute-s.png";
+		base.Icon = "/assets/blue-document-attribute-s.png";
 	}
 }

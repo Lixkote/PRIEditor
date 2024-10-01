@@ -413,7 +413,7 @@
         }
       }
     },
-    ".NETFramework,Version=v4.8/win-x86": {
+    ".NETFramework,Version=v4.8/win7-x86": {
       "iNKORE.UI.WPF/1.2.7.1": {
         "type": "package",
         "frameworkAssemblies": [
@@ -1772,27 +1772,28 @@
       "Microsoft.Windows.SDK.Contracts >= 10.0.22621.2428",
       "WindowsAPICodePack >= 7.0.4",
       "XbfPriFormat >= 1.0.0",
+      "iNKORE.UI.WPF >= 1.2.7.1",
       "iNKORE.UI.WPF.Modern >= 0.9.30"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lixkote\\.nuget\\packages\\": {},
+    "C:\\Users\\Kamil\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lixkote\\Documents\\GitHub\\XamlingTool\\XamlingTool.csproj",
+      "projectUniqueName": "C:\\Users\\Kamil\\Documents\\GitHub\\XamlingTool\\XamlingTool.csproj",
       "projectName": "XamlingTool",
-      "projectPath": "C:\\Users\\lixkote\\Documents\\GitHub\\XamlingTool\\XamlingTool.csproj",
-      "packagesPath": "C:\\Users\\lixkote\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lixkote\\Documents\\GitHub\\XamlingTool\\obj\\",
+      "projectPath": "C:\\Users\\Kamil\\Documents\\GitHub\\XamlingTool\\XamlingTool.csproj",
+      "packagesPath": "C:\\Users\\Kamil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kamil\\Documents\\GitHub\\XamlingTool\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\lixkote\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kamil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1807,8 +1808,8 @@
         "net48": {
           "targetAlias": "net48",
           "projectReferences": {
-            "C:\\Users\\lixkote\\Documents\\GitHub\\XamlingTool\\XbfPriFormat\\XbfPriFormat.csproj": {
-              "projectPath": "C:\\Users\\lixkote\\Documents\\GitHub\\XamlingTool\\XbfPriFormat\\XbfPriFormat.csproj"
+            "C:\\Users\\Kamil\\Documents\\GitHub\\XamlingTool\\XbfPriFormat\\XbfPriFormat.csproj": {
+              "projectPath": "C:\\Users\\Kamil\\Documents\\GitHub\\XamlingTool\\XbfPriFormat\\XbfPriFormat.csproj"
             }
           }
         }
@@ -1821,9 +1822,8 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+        "auditMode": "direct"
+      }
     },
     "frameworks": {
       "net48": {
@@ -1837,16 +1837,20 @@
             "target": "Package",
             "version": "[7.0.4, )"
           },
+          "iNKORE.UI.WPF": {
+            "target": "Package",
+            "version": "[1.2.7.1, )"
+          },
           "iNKORE.UI.WPF.Modern": {
             "target": "Package",
             "version": "[0.9.30, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
-      "win-x86": {
+      "win7-x86": {
         "#import": []
       }
     }

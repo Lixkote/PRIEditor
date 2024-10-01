@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Window x:Class="PRIExplorer.MainWindow" xmlns:ui="http://schemas.inkore.net/lib/ui/wpf/modern" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:PRIExplorer" Title="XamlingTool Prototype" Width="1000" Height="600" ui:WindowHelper.UseModernWindowStyle="True" ui:TitleBar.Height="36" ui:WindowHelper.SystemBackdropType="Mica" AllowDrop="True" PreviewDragOver="Window_PreviewDragOver" Drop="Window_Drop">
+<Window x:Class="PRIExplorer.MainWindow" xmlns:ui="http://schemas.inkore.net/lib/ui/wpf/modern" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:PRIExplorer" Title="XamlingTool" Width="1000" Height="600" ui:WindowHelper.UseModernWindowStyle="True" ui:TitleBar.Height="36"  ui:WindowHelper.SystemBackdropType="Mica" AllowDrop="True" PreviewDragOver="Window_PreviewDragOver" Drop="Window_Drop" Background="{x:Null}">
     <FrameworkElement.Resources>
         <ResourceDictionary>
             <ContextMenu x:Key="CandidatesListViewContextMenu">
@@ -42,24 +42,87 @@
             <ColumnDefinition Width="1*" />
             <ColumnDefinition Width="Auto" />
             <ColumnDefinition Width="2*" />
-        </Grid.ColumnDefinitions>
-        <Menu Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="0">
-            <MenuItem Header="_File">
-                <MenuItem Header="_Open..." Command="{Binding OpenCommand}" />
-                <Separator />
-                <MenuItem Header="_Close" Command="{Binding CloseCommand}" />
-                <MenuItem Header="_Save the pri as" Command="{Binding SaveAsPriCommand}" />
-            </MenuItem>
-            <MenuItem Header="_Options">
-                <MenuItem Header="Set resource _root path..." Command="{Binding SetResourceRootPathCommand}" />
-            </MenuItem>
-        </Menu>
-        <TreeView Name="resourceMapTreeView" Grid.Column="0" Grid.Row="1" Grid.RowSpan="3" ItemTemplate="{StaticResource ResourceMapTreeViewItemTemplate}" ItemsSource="{Binding Entries}" SelectedItemChanged="resourceMapTreeView_SelectedItemChanged" />
-        <GridSplitter Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Stretch" Width="3" />
-        <ListView Name="candidatesListView" Grid.Column="2" Grid.Row="1" SelectionMode="Single" Style="{StaticResource CandidatesListViewStyle}" ItemsSource="{Binding Candidates}" SelectedItem="{Binding SelectedCandidate, Mode=TwoWay}" />
-        <GridSplitter Grid.Column="2" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="3" />
-        <Frame Name="previewFrame" Grid.Column="2" Grid.Row="3" NavigationUIVisibility="Hidden" Content="{Binding PreviewContent, Mode=TwoWay}" />
-        <Frame Name="scopeDetailFrame" Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" NavigationUIVisibility="Hidden" Grid.ColumnSpan="2" Margin="3,0,0,40" />
-        <Button Grid.Column="2" Content="Replace XBF (Just replaces, you don't need to save afterwards)" HorizontalAlignment="Left" Margin="10,340,0,0" Grid.Row="3" VerticalAlignment="Top" Height="25" Width="346" Command="{Binding SaveXbfCommand}"/>
+        </Grid.ColumnDefinitions>       
+
+        
+        <Border  Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="0" BorderBrush="#FFE9EBEF" BorderThickness="1" CornerRadius="4" Margin="5,5,5,0">
+            <Grid >
+                <!-- Rounded mask (stretches to fill Grid) -->
+                <Border
+    Name="mask3"
+    Background="White"
+    CornerRadius="4"
+/>
+                <StackPanel>
+                    <!-- Use a VisualBrush of 'mask' as the opacity mask -->
+                    <StackPanel.OpacityMask>
+                        <VisualBrush Visual="{Binding ElementName=mask3}"/>
+                    </StackPanel.OpacityMask>
+                    
+                    <Menu>
+                        <MenuItem Header="_File">
+                            <MenuItem Header="_Open..." Command="{Binding OpenCommand}" />
+                            <MenuItem Header="_Save" Command="{Binding SaveAsPriCommand}" />
+                            <MenuItem Header="_Save as" Command="{Binding SaveAsPriCommand}" />
+                            <Separator />
+                            <MenuItem Header="_Exit" Command="{Binding CloseCommand}" />
+                            <MenuItem Header="_About XamlingTool" IsEnabled="False" />
+                        </MenuItem>
+                        <MenuItem Header="_Options">
+                            <MenuItem Header="Set resource _root path..." Command="{Binding SetResourceRootPathCommand}" />
+                        </MenuItem>
+                        <MenuItem Header="Action">
+                            <MenuItem Header="Replace XBF Resource" Command="{Binding SaveXbfCommand}" />
+                        </MenuItem>
+                    </Menu>
+                </StackPanel>
+            </Grid>
+        </Border>
+        
+        
+        
+        <Border  Grid.Column="0" Grid.Row="1" Grid.RowSpan="3" BorderBrush="#FFE9EBEF" BorderThickness="1" CornerRadius="4" Margin="5,5,0,5">
+            <Grid >
+                <!-- Rounded mask (stretches to fill Grid) -->
+                <Border
+    Name="mask2"
+    Background="White"
+    CornerRadius="4"
+/>
+                <ScrollViewer>
+                    <!-- Use a VisualBrush of 'mask' as the opacity mask -->
+                    <ScrollViewer.OpacityMask>
+                        <VisualBrush Visual="{Binding ElementName=mask2}"/>
+                    </ScrollViewer.OpacityMask>
+                    <TreeView Name="resourceMapTreeView" ItemTemplate="{StaticResource ResourceMapTreeViewItemTemplate}" ItemsSource="{Binding Entries}" SelectedItemChanged="resourceMapTreeView_SelectedItemChanged" Margin="5" />
+                </ScrollViewer>
+            </Grid>
+        </Border>
+        <Frame Name="previewFrame" Grid.Column="2" Grid.Row="3" NavigationUIVisibility="Hidden" Content="{Binding PreviewContent, Mode=TwoWay}" Margin="5" />
+        <Frame Name="scopeDetailFrame" Grid.Column="2" Grid.Row="3" NavigationUIVisibility="Hidden" Margin="5"/>
+        <Border Grid.Column="1" Grid.Row="1" Grid.RowSpan="1" Grid.ColumnSpan="2" BorderBrush="#FFE9EBEF" BorderThickness="1" CornerRadius="4" Margin="5,5,5,0">
+            <Grid >
+                <!-- Rounded mask (stretches to fill Grid) -->
+                <Border
+        Name="mask"
+        Background="White"
+        CornerRadius="4"
+    />
+                <StackPanel>
+                    <!-- Use a VisualBrush of 'mask' as the opacity mask -->
+                    <StackPanel.OpacityMask>
+                        <VisualBrush Visual="{Binding ElementName=mask}"/>
+                    </StackPanel.OpacityMask>
+                    <ListView Name="candidatesListView" Grid.Column="2" Grid.Row="1" SelectionMode="Single" ItemsSource="{Binding Candidates}" SelectedItem="{Binding SelectedCandidate, Mode=TwoWay}">
+                        <ListView.View>
+                            <GridView ColumnHeaderToolTip="Embedded Resources Infomation">
+                                <GridViewColumn Header="Qualifiers" Width="300" DisplayMemberBinding="{Binding QualifiersDescription}" />
+                                <GridViewColumn Header="Location" Width="300" DisplayMemberBinding="{Binding Location}" />
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </StackPanel>
+            </Grid>
+        </Border>        
     </Grid>
 </Window>

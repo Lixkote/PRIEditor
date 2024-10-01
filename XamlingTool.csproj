@@ -14,6 +14,7 @@
   <PropertyGroup>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <RootNamespace />
+    <ApplicationIcon>placeholder.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="XBFGenerator\**" />
@@ -35,19 +36,45 @@
     <None Remove="assets\blue-document-attribute-x.png" />
     <None Remove="assets\blue-document-attribute-s.png" />
     <None Remove="assets\blue-document-xaml.png" />
+    <None Remove="assets\placeholder.ico" />
     <Page Remove="XamlingTool\App.xaml" />
     <ApplicationDefinition Include="XamlingTool\App.xaml" />
-    <EmbeddedResource Include="assets\blue-document-binary.png" LogicalName="assets/blue-document-binary.png" />
-    <EmbeddedResource Include="assets\blue-document.png" LogicalName="assets/blue-document.png" />
-    <EmbeddedResource Include="assets\blue-document-code.png" LogicalName="assets/blue-document-code.png" />
-    <EmbeddedResource Include="assets\folder-horizontal.png" LogicalName="assets/folder-horizontal.png" />
-    <EmbeddedResource Include="assets\document.png" LogicalName="assets/document.png" />
-    <EmbeddedResource Include="assets\folder.png" LogicalName="assets/folder.png" />
-    <EmbeddedResource Include="assets\blue-document-attribute-x.png" LogicalName="assets/blue-document-attribute-x.png" />
-    <EmbeddedResource Include="assets\blue-document-attribute-s.png" LogicalName="assets/blue-document-attribute-s.png" />
-    <EmbeddedResource Include="assets\blue-document-xaml.png" LogicalName="assets/blue-document-xaml.png" />
+    <EmbeddedResource Include="assets\placeholder.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Content Include="placeholder.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="assets\blue-document-binary.png" LogicalName="assets/blue-document-binary.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="assets\blue-document.png" LogicalName="assets/blue-document.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="assets\blue-document-code.png" LogicalName="assets/blue-document-code.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="assets\folder-horizontal.png" LogicalName="assets/folder-horizontal.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="assets\document.png" LogicalName="assets/document.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="assets\folder.png" LogicalName="assets/folder.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="assets\blue-document-attribute-x.png" LogicalName="assets/blue-document-attribute-x.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="assets\blue-document-attribute-s.png" LogicalName="assets/blue-document-attribute-s.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="assets\blue-document-xaml.png" LogicalName="assets/blue-document-xaml.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="iNKORE.UI.WPF" Version="1.2.7.1" />
     <PackageReference Include="iNKORE.UI.WPF.Modern" Version="0.9.30" />
     <PackageReference Include="Microsoft.Windows.SDK.Contracts" Version="10.0.22621.2428" />
     <PackageReference Include="WindowsAPICodePack" Version="7.0.4" />

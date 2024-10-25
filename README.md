@@ -1,5 +1,7 @@
 ## PRIEditor / XamlingTool
 
+![XamlingTool Screenshot](https://github.com/Lixkote/PRIEditor/blob/main/preview.png)
+
 This sample application allows to open, browse the contents of PRI files and replace XBF resources in them.
 It is also possible to export individual resources.
 

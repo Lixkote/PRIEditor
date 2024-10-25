@@ -1,4 +1,4 @@
-## PRIEditor / XamlingTools
+## PRIEditor / XamlingTool
 
 This sample application allows to open, browse the contents of PRI files and replace XBF resources in them.
 It is also possible to export individual resources.

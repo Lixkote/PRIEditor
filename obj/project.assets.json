@@ -413,7 +413,7 @@
         }
       }
     },
-    ".NETFramework,Version=v4.8/win7-x86": {
+    ".NETFramework,Version=v4.8/win-x86": {
       "iNKORE.UI.WPF/1.2.7.1": {
         "type": "package",
         "frameworkAssemblies": [
@@ -1777,23 +1777,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kamil\\.nuget\\packages\\": {},
+    "C:\\Users\\diaxi\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kamil\\Documents\\GitHub\\XamlingTool\\XamlingTool.csproj",
+      "projectUniqueName": "C:\\Users\\diaxi\\Documents\\GitHub\\PRIEditor\\XamlingTool.csproj",
       "projectName": "XamlingTool",
-      "projectPath": "C:\\Users\\Kamil\\Documents\\GitHub\\XamlingTool\\XamlingTool.csproj",
-      "packagesPath": "C:\\Users\\Kamil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kamil\\Documents\\GitHub\\XamlingTool\\obj\\",
+      "projectPath": "C:\\Users\\diaxi\\Documents\\GitHub\\PRIEditor\\XamlingTool.csproj",
+      "packagesPath": "C:\\Users\\diaxi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\diaxi\\Documents\\GitHub\\PRIEditor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Kamil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\diaxi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1808,8 +1808,8 @@
         "net48": {
           "targetAlias": "net48",
           "projectReferences": {
-            "C:\\Users\\Kamil\\Documents\\GitHub\\XamlingTool\\XbfPriFormat\\XbfPriFormat.csproj": {
-              "projectPath": "C:\\Users\\Kamil\\Documents\\GitHub\\XamlingTool\\XbfPriFormat\\XbfPriFormat.csproj"
+            "C:\\Users\\diaxi\\Documents\\GitHub\\PRIEditor\\XbfPriFormat\\XbfPriFormat.csproj": {
+              "projectPath": "C:\\Users\\diaxi\\Documents\\GitHub\\PRIEditor\\XbfPriFormat\\XbfPriFormat.csproj"
             }
           }
         }
@@ -1822,8 +1822,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net48": {
@@ -1846,11 +1847,11 @@
             "version": "[0.9.30, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
-      "win7-x86": {
+      "win-x86": {
         "#import": []
       }
     }
